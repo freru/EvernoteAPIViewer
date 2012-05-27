@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBF5058F1572873D00EB0832 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF5058E1572873D00EB0832 /* UIKit.framework */; };
+		FBF505911572873D00EB0832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF505901572873D00EB0832 /* Foundation.framework */; };
+		FBF505931572873D00EB0832 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF505921572873D00EB0832 /* CoreGraphics.framework */; };
+		FBF505991572873D00EB0832 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBF505971572873D00EB0832 /* InfoPlist.strings */; };
+		FBF5059B1572873D00EB0832 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF5059A1572873D00EB0832 /* main.m */; };
+		FBF5059F1572873D00EB0832 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF5059E1572873D00EB0832 /* AppDelegate.m */; };
+		FBF505A21572873D00EB0832 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF505A01572873D00EB0832 /* MainStoryboard_iPhone.storyboard */; };
+		FBF505A51572873D00EB0832 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF505A31572873D00EB0832 /* MainStoryboard_iPad.storyboard */; };
+		FBF505A81572873D00EB0832 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF505A71572873D00EB0832 /* ViewController.m */; };
+		FBF505B81572882B00EB0832 /* EvernoteAPI.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBF505B71572882B00EB0832 /* EvernoteAPI.plist */; };
+		FBF505BA1572883300EB0832 /* list.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBF505B91572883300EB0832 /* list.plist */; };
+		FBF505CA157288A400EB0832 /* DocViewerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF505C5157288A400EB0832 /* DocViewerVC.m */; };
+		FBF505CB157288A400EB0832 /* GroupViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF505C7157288A400EB0832 /* GroupViewVC.m */; };
+		FBF505CC157288A400EB0832 /* ListViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF505C9157288A400EB0832 /* ListViewVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBF5058A1572873D00EB0832 /* EvernoteAPIViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvernoteAPIViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF5058E1572873D00EB0832 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBF505901572873D00EB0832 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBF505921572873D00EB0832 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBF505961572873D00EB0832 /* EvernoteAPIViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EvernoteAPIViewer-Info.plist"; sourceTree = "<group>"; };
+		FBF505981572873D00EB0832 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBF5059A1572873D00EB0832 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBF5059C1572873D00EB0832 /* EvernoteAPIViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EvernoteAPIViewer-Prefix.pch"; sourceTree = "<group>"; };
+		FBF5059D1572873D00EB0832 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBF5059E1572873D00EB0832 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBF505A11572873D00EB0832 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		FBF505A41572873D00EB0832 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		FBF505A61572873D00EB0832 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBF505A71572873D00EB0832 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBF505B71572882B00EB0832 /* EvernoteAPI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EvernoteAPI.plist; sourceTree = "<group>"; };
+		FBF505B91572883300EB0832 /* list.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = list.plist; sourceTree = "<group>"; };
+		FBF505C4157288A400EB0832 /* DocViewerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DocViewerVC.h; path = ViewController/DocViewerVC.h; sourceTree = "<group>"; };
+		FBF505C5157288A400EB0832 /* DocViewerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DocViewerVC.m; path = ViewController/DocViewerVC.m; sourceTree = "<group>"; };
+		FBF505C6157288A400EB0832 /* GroupViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupViewVC.h; path = ViewController/GroupViewVC.h; sourceTree = "<group>"; };
+		FBF505C7157288A400EB0832 /* GroupViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupViewVC.m; path = ViewController/GroupViewVC.m; sourceTree = "<group>"; };
+		FBF505C8157288A400EB0832 /* ListViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewVC.h; path = ViewController/ListViewVC.h; sourceTree = "<group>"; };
+		FBF505C9157288A400EB0832 /* ListViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewVC.m; path = ViewController/ListViewVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF505871572873D00EB0832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF5058F1572873D00EB0832 /* UIKit.framework in Frameworks */,
+				FBF505911572873D00EB0832 /* Foundation.framework in Frameworks */,
+				FBF505931572873D00EB0832 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBF5057F1572873D00EB0832 = {
+			isa = PBXGroup;
+			children = (
+				FBF505941572873D00EB0832 /* EvernoteAPIViewer */,
+				FBF5058D1572873D00EB0832 /* Frameworks */,
+				FBF5058B1572873D00EB0832 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF5058B1572873D00EB0832 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF5058A1572873D00EB0832 /* EvernoteAPIViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF5058D1572873D00EB0832 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBF5058E1572873D00EB0832 /* UIKit.framework */,
+				FBF505901572873D00EB0832 /* Foundation.framework */,
+				FBF505921572873D00EB0832 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBF505941572873D00EB0832 /* EvernoteAPIViewer */ = {
+			isa = PBXGroup;
+			children = (
+				FBF505B6157287F200EB0832 /* ViewController */,
+				FBF5059D1572873D00EB0832 /* AppDelegate.h */,
+				FBF5059E1572873D00EB0832 /* AppDelegate.m */,
+				FBF505A01572873D00EB0832 /* MainStoryboard_iPhone.storyboard */,
+				FBF505A31572873D00EB0832 /* MainStoryboard_iPad.storyboard */,
+				FBF505A61572873D00EB0832 /* ViewController.h */,
+				FBF505A71572873D00EB0832 /* ViewController.m */,
+				FBF505951572873D00EB0832 /* Supporting Files */,
+			);
+			path = EvernoteAPIViewer;
+			sourceTree = "<group>";
+		};
+		FBF505951572873D00EB0832 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBF505B71572882B00EB0832 /* EvernoteAPI.plist */,
+				FBF505B91572883300EB0832 /* list.plist */,
+				FBF505961572873D00EB0832 /* EvernoteAPIViewer-Info.plist */,
+				FBF505971572873D00EB0832 /* InfoPlist.strings */,
+				FBF5059A1572873D00EB0832 /* main.m */,
+				FBF5059C1572873D00EB0832 /* EvernoteAPIViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBF505B6157287F200EB0832 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FBF505C4157288A400EB0832 /* DocViewerVC.h */,
+				FBF505C5157288A400EB0832 /* DocViewerVC.m */,
+				FBF505C6157288A400EB0832 /* GroupViewVC.h */,
+				FBF505C7157288A400EB0832 /* GroupViewVC.m */,
+				FBF505C8157288A400EB0832 /* ListViewVC.h */,
+				FBF505C9157288A400EB0832 /* ListViewVC.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBF505891572873D00EB0832 /* EvernoteAPIViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF505AB1572873D00EB0832 /* Build configuration list for PBXNativeTarget "EvernoteAPIViewer" */;
+			buildPhases = (
+				FBF505861572873D00EB0832 /* Sources */,
+				FBF505871572873D00EB0832 /* Frameworks */,
+				FBF505881572873D00EB0832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvernoteAPIViewer;
+			productName = EvernoteAPIViewer;
+			productReference = FBF5058A1572873D00EB0832 /* EvernoteAPIViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF505811572873D00EB0832 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = freruProductive;
+			};
+			buildConfigurationList = FBF505841572873D00EB0832 /* Build configuration list for PBXProject "EvernoteAPIViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBF5057F1572873D00EB0832;
+			productRefGroup = FBF5058B1572873D00EB0832 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF505891572873D00EB0832 /* EvernoteAPIViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF505881572873D00EB0832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF505991572873D00EB0832 /* InfoPlist.strings in Resources */,
+				FBF505A21572873D00EB0832 /* MainStoryboard_iPhone.storyboard in Resources */,
+				FBF505A51572873D00EB0832 /* MainStoryboard_iPad.storyboard in Resources */,
+				FBF505B81572882B00EB0832 /* EvernoteAPI.plist in Resources */,
+				FBF505BA1572883300EB0832 /* list.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF505861572873D00EB0832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF5059B1572873D00EB0832 /* main.m in Sources */,
+				FBF5059F1572873D00EB0832 /* AppDelegate.m in Sources */,
+				FBF505A81572873D00EB0832 /* ViewController.m in Sources */,
+				FBF505CA157288A400EB0832 /* DocViewerVC.m in Sources */,
+				FBF505CB157288A400EB0832 /* GroupViewVC.m in Sources */,
+				FBF505CC157288A400EB0832 /* ListViewVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBF505971572873D00EB0832 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF505981572873D00EB0832 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FBF505A01572873D00EB0832 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF505A11572873D00EB0832 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FBF505A31572873D00EB0832 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF505A41572873D00EB0832 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBF505A91572873D00EB0832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = EvernoteAPI;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBF505AA1572873D00EB0832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = EvernoteAPI;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF505AC1572873D00EB0832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EvernoteAPIViewer/EvernoteAPIViewer-Prefix.pch";
+				INFOPLIST_FILE = "EvernoteAPIViewer/EvernoteAPIViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBF505AD1572873D00EB0832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EvernoteAPIViewer/EvernoteAPIViewer-Prefix.pch";
+				INFOPLIST_FILE = "EvernoteAPIViewer/EvernoteAPIViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF505841572873D00EB0832 /* Build configuration list for PBXProject "EvernoteAPIViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF505A91572873D00EB0832 /* Debug */,
+				FBF505AA1572873D00EB0832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF505AB1572873D00EB0832 /* Build configuration list for PBXNativeTarget "EvernoteAPIViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF505AC1572873D00EB0832 /* Debug */,
+				FBF505AD1572873D00EB0832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBF505811572873D00EB0832 /* Project object */;
+}
